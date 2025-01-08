@@ -22,8 +22,8 @@ class PS001{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int id = 100;
-        String firstName = "Revanth Rao"; 
-        String lastName = "Bompelli";
+        String firstName = "Anusha"; 
+        String lastName = "Chiraboina";
         String address = "Hyderabad";
         Employee emp1 = new Employee();
         System.out.println("Default constructor:\nFull name : "+emp1.getFullName());
