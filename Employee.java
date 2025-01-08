@@ -28,7 +28,7 @@ class PS001{
         Employee emp1 = new Employee();
         System.out.println("Default constructor:\nFull name : "+emp1.getFullName());
         Employee emp = new Employee(id, firstName, lastName, address);
-        System.out.println("Parameterized constructoer:\nFull name : "+emp.getFullName());
+        System.out.println("Parameterized constructor:\nFull name : "+emp.getFullName());
 
     }
 }
