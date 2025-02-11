@@ -1,0 +1,21 @@
+public class Demo074 {
+            public static void main(String[] args) {
+                int[] arr = {5, 2, 8, 1, 3};
+                
+                for (int i = 0; i < arr.length - 1; i++) {
+                    for (int j = 0; j < arr.length - i - 1; j++) {
+                        if (arr[j] > arr[j + 1]) {
+                            // Swap using arithmetic (no temp variable)
+                            arr[j] = arr[j] + arr[j + 1];
+                            arr[j + 1] = arr[j] - arr[j + 1]; 
+                            arr[j] = arr[j] - arr[j + 1];  
+                        }
+                    }
+                }
+                
+                for (int num : arr) {
+                    System.out.print(num + " ");
+                }
+            }
+        }
+
